@@ -16,4 +16,8 @@
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
 	}
+
+	h1 {
+		font-size: 3rem;
+	}
 </style>

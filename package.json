@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "svelte-kit dev",
-		"build": "svelte-kit build",
+		"build": "npm run build",
 		"package": "svelte-kit package",
 		"preview": "svelte-kit preview",
 		"lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
@@ -20,8 +20,5 @@
 		"prettier-plugin-svelte": "^2.5.0",
 		"svelte": "^3.44.0"
 	},
-	"type": "module",
-	"dependencies": {
-		"svelte-kit": "^1.0.0"
-	}
+	"type": "module"
 }

@@ -27,10 +27,11 @@
 		</p>
 		<p>Things that I dont love injustice, intrusion and hangovers</p>
 	</div>
-
-	<footer>
-		<strong>you are always one decision away from a totally different life</strong>
-	</footer>
+	<div>
+		<footer>
+			<strong>you are always one decision away from a totally different life</strong>
+		</footer>
+	</div>
 </main>
 
 <style>

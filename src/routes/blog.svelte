@@ -9,12 +9,16 @@
 <style>
 	h1 {
 		font-size: 3rem;
-		text-align: center;
+		padding: 0rem 1.5rem;
+		text-align: left;
+		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+			'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
 	}
 	p {
-		margin: 2rem;
+		padding: 0rem 1.5rem;
 		display: flex;
-		font-size: 1.125rem;
 		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
 			'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 		-webkit-font-smoothing: antialiased;

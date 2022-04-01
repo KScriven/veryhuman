@@ -20,20 +20,17 @@
 			I am Kerryn, a software engineer developing my work and life, in the UK. See some of my work
 			on <a href="https://github.com/KScriven"> [gitHub] </a> or just read a little bit about me here
 		</p>
-	</div>
-	<div>
 		<p>
 			Things I love and that make me smile and are important to me are sunshine, REALLY early
 			mornings (I am part of the 5am crew), the effortless kindness of strangers, yoga, being
 			outdoors and a small handful of amazing human beings.
 		</p>
+		<p>Things that I dont love injustice, intrusion and hangovers</p>
 	</div>
-	<div><p>Things that I dont love injustice, intrusion and hangovers</p></div>
-	<div>
-		<footer>
-			<strong>you are always one decision away from a totally different life</strong>
-		</footer>
-	</div>
+
+	<footer>
+		<strong>you are always one decision away from a totally different life</strong>
+	</footer>
 </main>
 
 <style>
@@ -61,7 +58,9 @@
 	}
 
 	footer {
-		font-size: 1.125rem;
+		position: absolute;
+		bottom: 5%;
+		font-size: 1.25rem;
 		padding-left: 0rem 20rem;
 	}
 

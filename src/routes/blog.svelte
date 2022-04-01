@@ -1,10 +1,12 @@
 <header>
 	<h1>Blog Space</h1>
 </header>
-<p>
-	This section is my space of recording things I have found interesting, surprising or downright
-	wierd. Read at your peril!
-</p>
+<main>
+	<p>
+		This section is my space of recording things I have found interesting, surprising or downright
+		wierd. Read at your peril!
+	</p>
+</main>
 
 <style>
 	h1 {

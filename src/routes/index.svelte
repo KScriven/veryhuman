@@ -38,9 +38,7 @@
 
 <style>
 	main {
-		min-height: 100vh;
 		padding: 0rem 1.5rem;
-		/* text-align: center; */
 		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
 			'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 		-webkit-font-smoothing: antialiased;
@@ -65,10 +63,6 @@
 	footer {
 		font-size: 1.125rem;
 		padding-left: 0rem 20rem;
-		/* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
-			'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale; */
 	}
 
 	@media screen and (max-width: 600px) {

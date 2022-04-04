@@ -16,7 +16,7 @@
 		</ul>
 	</div>
 	<div>
-		<p>
+		<p class="content">
 			I am Kerryn, a software engineer developing my work and life, in the UK. See some of my work
 			on <a href="https://github.com/KScriven"> [gitHub] </a> or just read a little bit about me here
 		</p>
@@ -27,7 +27,7 @@
 		</p>
 		<p>Things that I dont love injustice, intrusion and hangovers</p>
 	</div>
-	<div>
+	<div class="footer">
 		<footer>
 			<strong>you are always one decision away from a totally different life</strong>
 		</footer>
@@ -36,6 +36,8 @@
 
 <style>
 	main {
+		display: flex;
+		flex-direction: column;
 		padding: 0rem 1.5rem;
 		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
 			'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
@@ -57,12 +59,13 @@
 		text-decoration: none;
 		color: white;
 	}
+	.content {
+		flex: 1 0 auto;
+	}
 
-	footer {
-		position: absolute;
-		bottom: 5%;
+	.footer {
+		flex-shrink: 0;
 		font-size: 1.25rem;
-		padding-left: 0rem 20rem;
 	}
 
 	@media screen and (max-width: 600px) {

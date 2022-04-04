@@ -6,6 +6,7 @@
 	<div>
 		<header>
 			<h1>{h1Title}</h1>
+			<p class="header">black and white online, <span>life in full colour</span></p>
 		</header>
 		<ul class="links">
 			<li>
@@ -48,6 +49,12 @@
 		font-size: 4rem;
 		text-align: left;
 		position: relative;
+	}
+
+	span {
+		font-weight: 700;
+		padding: 0.2rem;
+		background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
 	}
 
 	ul {

@@ -78,7 +78,7 @@
 	@media screen and (max-width: 600px) {
 		.links {
 			height: auto;
-			/* display: flex; */
+			display: flex;
 		}
 		.links a {
 			padding: 0;

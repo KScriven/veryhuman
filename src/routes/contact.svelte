@@ -29,7 +29,6 @@
 		-moz-osx-font-smoothing: grayscale;
 	}
 	p {
-		display: flex;
 		padding: 0rem 2rem;
 		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
 			'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
@@ -38,7 +37,6 @@
 	}
 
 	a {
-		padding-left: 5px;
 		text-decoration: none;
 		color: white;
 	}

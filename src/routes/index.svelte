@@ -22,11 +22,10 @@
 			on <a href="https://github.com/KScriven"> [gitHub] </a> or just read a little bit about me here
 		</p>
 		<p>
-			Things I love and that make me smile and are important to me are sunshine, REALLY early
-			mornings (I am part of the 5am crew), the effortless kindness of strangers, yoga, being
-			outdoors and a small handful of amazing human beings.
+			I love sunshine, REALLY early mornings (I am part of the 5am crew), the effortless kindness of
+			strangers, yoga, being outdoors and a small handful of amazing human beings.
 		</p>
-		<p>Things that I dont love injustice, intrusion and hangovers</p>
+		<p>Things that make me sad is injustice, intrusion and hangovers</p>
 	</div>
 	<div class="footer">
 		<footer>
@@ -68,6 +67,7 @@
 	}
 	.content {
 		flex: 1 0 auto;
+		display: block;
 	}
 
 	.footer {
@@ -78,7 +78,7 @@
 	@media screen and (max-width: 600px) {
 		.links {
 			height: auto;
-			display: flex;
+			/* display: flex; */
 		}
 		.links a {
 			padding: 0;

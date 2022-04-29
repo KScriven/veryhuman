@@ -9,14 +9,18 @@ some simple CSS trickery.
 
 ## Developing
 
-I start my local development server running the follwing commands (thanks to @SvelteKit for all the coolness)
+I start my local development server running the follwing commands (thanks to @SvelteKit for all the coolness).
+When I develop locally I ensure that I run a version of node that is older than v12.
 
 ```bash
 npm run dev
 
 # or start the server and open the app in a new browser tab
 npm run dev -- --open
+
 ```
+
+A local version of the website is generated and run from a [localhost](http://localhost:3000/) instance
 
 ## Building and deploying
 

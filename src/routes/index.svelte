@@ -7,14 +7,21 @@
 		<header>
 			<h1>{h1Title}</h1>
 			<p class="header">black and white online, <span>life in full colour</span></p>
+			<ul class="links">
+				<li>
+					<a href="/blog">[blog]</a>
+					<a href="/contact">[contact]</a>
+					<a href="/things">[things]</a>
+				</li>
+			</ul>
 		</header>
-		<ul class="links">
+		<!-- <ul class="links">
 			<li>
 				<a href="/blog">[blog]</a>
 				<a href="/contact">[contact]</a>
 				<a href="/things">[things]</a>
 			</li>
-		</ul>
+		</ul> -->
 	</div>
 	<div>
 		<p class="content">
@@ -58,13 +65,18 @@
 
 	ul {
 		list-style-type: none;
-		padding-bottom: 2rem;
 		text-align: left;
 	}
+
 	a {
 		text-decoration: none;
 		color: white;
 	}
+
+	a:hover {
+		background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
+	}
+
 	.content {
 		flex: 1 0 auto;
 		display: block;
@@ -76,6 +88,11 @@
 	}
 
 	@media screen and (max-width: 600px) {
+		h1 {
+			font-size: 3rem;
+			text-align: left;
+			position: relative;
+		}
 		.links {
 			height: auto;
 			display: flex;

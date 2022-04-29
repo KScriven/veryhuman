@@ -1,24 +1,15 @@
-# create-svelte
+# veryHuman personal website
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+A small website built for personal use to track thoughts, findings and things for me.
 
-## Creating a project
+## Creating this project
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm init svelte@next
-
-# create a new project in my-app
-npm init svelte@next my-app
-```
-
-> Note: the `@next` is temporary
+Whilst building this website (slowly) I am trying to learn new software development skills, be it frameworks or
+some simple CSS trickery.
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+I start my local development server running the follwing commands (thanks to @SvelteKit for all the coolness)
 
 ```bash
 npm run dev
@@ -27,14 +18,14 @@ npm run dev
 npm run dev -- --open
 ```
 
-## Building
+## Building and deploying
 
-To create a production version of your app:
+To create a production version of my app I run the following command:
 
 ```bash
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+You can preview the production build with `npm run preview`. Once this is committed to my branch it automatically deploys to the hosting platform [Netlify](https://www.netlify.com).
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+All things being well its deployed to [veryHuman](https://veryhuman.co.uk)

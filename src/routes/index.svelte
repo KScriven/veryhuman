@@ -15,13 +15,6 @@
 				</li>
 			</ul>
 		</header>
-		<!-- <ul class="links">
-			<li>
-				<a href="/blog">[blog]</a>
-				<a href="/contact">[contact]</a>
-				<a href="/things">[things]</a>
-			</li>
-		</ul> -->
 	</div>
 	<div>
 		<p class="content">

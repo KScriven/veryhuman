@@ -1,20 +1,24 @@
 <script>
-	let h1Title = 'Hello There';
+	let title = 'Hello There';
 </script>
 
+<header>
+	<h1>{title}</h1>
+	<nav class="nav-links">
+		<ul>
+			<li>
+				<a href="/blog">[blog]</a>
+				<a href="/contact">[contact]</a>
+				<a href="/things">[things]</a>
+			</li>
+		</ul>
+	</nav>
+</header>
+
 <main>
-	<div>
-		<header>
-			<h1>{h1Title}</h1>
-			<p class="header">black and white online, <span>life in full colour</span></p>
-			<ul class="links">
-				<li>
-					<a href="/blog">[blog]</a>
-					<a href="/contact">[contact]</a>
-					<a href="/things">[things]</a>
-				</li>
-			</ul>
-		</header>
+	<div class="caption">
+		<p class="bw-caption">black and white online</p>
+		<p class="full-caption">life in full colour</p>
 	</div>
 	<div>
 		<p class="content">
@@ -25,7 +29,7 @@
 			I love sunshine, REALLY early mornings (I am part of the 5am crew), the effortless kindness of
 			strangers, yoga, being outdoors and a small handful of amazing human beings.
 		</p>
-		<p>Things that make me sad is injustice, intrusion and hangovers</p>
+		<p>Things that make me sad are injustices, intrusion and hangovers</p>
 	</div>
 	<div class="footer">
 		<footer>
@@ -35,6 +39,14 @@
 </main>
 
 <style>
+	header {
+		display: flex;
+		padding: 0rem 1.5rem;
+		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+			'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
 	main {
 		display: flex;
 		flex-direction: column;
@@ -50,9 +62,24 @@
 		position: relative;
 	}
 
-	span {
+	.caption {
+		display: flex;
+	}
+
+	.bw-caption {
+		display: flex;
+		background-color: white;
+		color: black;
+		width: max-content;
+		font-weight: 1000;
+		padding: 1rem;
+	}
+
+	.full-caption {
+		display: flex;
 		font-weight: 700;
-		padding: 0.2rem;
+		padding: 1rem;
+		width: max-content;
 		background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
 	}
 
@@ -64,6 +91,7 @@
 	a {
 		text-decoration: none;
 		color: white;
+		font-size: 1.2rem;
 	}
 
 	a:hover {
@@ -86,17 +114,31 @@
 			text-align: left;
 			position: relative;
 		}
-		.links {
+		.nav-links {
 			height: auto;
 			display: flex;
 		}
-		.links a {
-			padding: 0;
-			margin: 0 0.5rem;
-		}
-		.links a:hover {
+
+		.nav-links a:hover {
 			padding: 0;
 			background: transparent;
+		}
+
+		.bw-caption {
+			display: flex;
+			background-color: white;
+			color: black;
+			width: max-content;
+			font-weight: 1000;
+			padding: 0.2rem;
+		}
+
+		.full-caption {
+			display: flex;
+			font-weight: 700;
+			padding: 0.2rem;
+			width: max-content;
+			background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
 		}
 	}
 </style>

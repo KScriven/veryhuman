@@ -6,7 +6,7 @@
 	<p>An unordered list of things that I am currently learning/working/facinated with</p>
 	<ul>
 		<a href="/react"><li>[React]</li></a>
-		<a href="/react"><li>[TypeScript]</li></a>
+		<a href="/typescript"><li>[TypeScript]</li></a>
 	</ul>
 </main>
 

@@ -3,7 +3,7 @@
 </script>
 
 <header>
-	<h1>{title}</h1>
+	<h1 class="glitch">{title}</h1>
 	<nav class="nav-links">
 		<ul>
 			<li>
@@ -37,9 +37,9 @@
 			<b>my current food fixation is </b> anything with oodles of noodles
 		</p>
 	</div>
-	<div class="footer">
+	<div>
 		<footer>
-			<strong>you are always one decision away from a totally different life</strong>
+			<b>you are always one decision away from a totally different life</b>
 		</footer>
 	</div>
 </main>
@@ -102,9 +102,24 @@
 		background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
 	}
 
-	.footer {
+	footer {
 		flex-shrink: 0;
 		font-size: 1.25rem;
+	}
+	.glitch {
+		color: white;
+		position: relative;
+		font-size: 4vw;
+		animation: glitch 3s 3s infinite;
+	}
+
+	@keyframes glitch {
+		1% {
+			transform: rotateX(10deg) skewX(90deg);
+		}
+		2% {
+			transform: rotateX(0deg) skewX(0deg);
+		}
 	}
 
 	@media screen and (max-width: 600px) {

@@ -22,12 +22,14 @@
 	</div>
 	<div>
 		<p class="content">
-			I am Kerryn, a software engineer developing my work and life, in the UK. See some of my work
-			on <a href="https://github.com/KScriven"> [gitHub] </a> or just read a little bit about me here
+			Hey there, I am Kerryn, a software engineer developing my work and life, in the UK. See some
+			of my work on <a href="https://github.com/KScriven"> [gitHub] </a> or just read a little bit about
+			me here
 		</p>
 		<p>
-			I love sunshine, REALLY early mornings (I am part of the 5am crew), the effortless kindness of
-			strangers, yoga, being outdoors and a small handful of amazing human beings.
+			I love sunshine, <u>REALLY</u> early mornings (I am part of the 5am gym crew), an effortless kindness
+			of a stranger, yoga and a handful of amazing human beings. I make time when I can to read books,
+			cook food from scratch and get outdoors.
 		</p>
 		<p>Things that make me sad are injustices, intrusion and hangovers</p>
 	</div>
@@ -48,8 +50,6 @@
 		-moz-osx-font-smoothing: grayscale;
 	}
 	main {
-		display: flex;
-		flex-direction: column;
 		padding: 0rem 1.5rem;
 		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
 			'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
@@ -98,11 +98,6 @@
 		background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
 	}
 
-	.content {
-		flex: 1 0 auto;
-		display: block;
-	}
-
 	.footer {
 		flex-shrink: 0;
 		font-size: 1.25rem;
@@ -114,9 +109,12 @@
 			text-align: left;
 			position: relative;
 		}
+		p {
+			padding-top: 1rem;
+		}
 		.nav-links {
 			height: auto;
-			display: flex;
+			/* display: flex; */
 		}
 
 		.nav-links a:hover {

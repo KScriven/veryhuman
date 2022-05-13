@@ -1,9 +1,9 @@
 <header>
 	<a href="../"><button>[Home]</button></a>
-	<h1>Things React and beautiful</h1>
+	<h1>React</h1>
 </header>
 <main>
-	<p>All React things great and small</p>
+	<p>All things great and small</p>
 </main>
 
 <style>

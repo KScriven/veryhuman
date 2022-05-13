@@ -1,13 +1,9 @@
 <header>
 	<a href="../"><button>[Home]</button></a>
-	<h1>Things I am working on</h1>
+	<h1>TypeScript</h1>
 </header>
 <main>
-	<p>An unordered list of things that I am currently learning/working/facinated with</p>
-	<ul>
-		<a href="/react"><li>[React]</li></a>
-		<a href="/react"><li>[TypeScript]</li></a>
-	</ul>
+	<p>All things great and small</p>
 </main>
 
 <style>
@@ -20,14 +16,12 @@
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
 	}
-	p,
-	ul {
+	p {
 		padding: 0rem 1.5rem;
 		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
 			'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
-		list-style-type: none;
 	}
 
 	a {

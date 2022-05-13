@@ -32,6 +32,10 @@
 			cook food from scratch and get outdoors.
 		</p>
 		<p>Things that make me sad are injustices, intrusion and hangovers</p>
+		<p>
+			I am <b>currently reading</b> Snow Crash by Neal Stephenson and
+			<b>my current food fixation is </b> anything with oodles of noodles
+		</p>
 	</div>
 	<div class="footer">
 		<footer>

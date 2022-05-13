@@ -1,6 +1,6 @@
 <header>
 	<a href="../"><button>[Home]</button></a>
-	<h1>TypeScript</h1>
+	<h1>Thing Two</h1>
 </header>
 <main>
 	<p>All things great and small</p>

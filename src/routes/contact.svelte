@@ -48,6 +48,7 @@
 		padding: 0.5rem;
 		border-style: none;
 		margin: 0rem 1.5rem;
+		font-size: 1.5rem;
 	}
 
 	button:hover {

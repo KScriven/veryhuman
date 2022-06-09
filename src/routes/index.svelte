@@ -109,7 +109,7 @@
 	.glitch {
 		color: white;
 		position: relative;
-		font-size: 4vw;
+		font-size: 7vw;
 		animation: glitch 3s 3s infinite;
 	}
 

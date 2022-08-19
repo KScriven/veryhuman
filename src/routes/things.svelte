@@ -3,7 +3,7 @@
 	<h1>Things I am working on</h1>
 </header>
 <main>
-	<p>An unordered list of things that I am currently learning/working/facinated with</p>
+	<p>A list of things that currently facinate me and keep me at my computer</p>
 	<ul>
 		<a href="/react"><li>[Thing One]</li></a>
 		<a href="/typescript"><li>[Thing Two]</li></a>

@@ -7,7 +7,6 @@
 	<nav class="nav-links">
 		<ul>
 			<li>
-				<a href="/blog">[blog]</a>
 				<a href="/contact">[contact]</a>
 				<a href="/things">[things]</a>
 			</li>

@@ -4,12 +4,11 @@ A small website built for personal use to track thoughts, findings and things fo
 
 ## Creating this project
 
-Whilst building this website (slowly) I am trying to learn new software development skills, be it frameworks or
-some simple CSS trickery.
+Whilst building this website (slowly) I am trying to learn new software development skills, be it frameworks or some simple CSS trickery.
 
 ## Developing
 
-I start my local development server running the follwing commands (thanks to @SvelteKit for all the coolness).
+I start my local development server running the following commands (thanks to @SvelteKit for all the coolness).
 When I develop locally I ensure that I run a version of node that is older than v12.
 
 ```bash

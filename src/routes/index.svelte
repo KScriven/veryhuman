@@ -8,7 +8,6 @@
 		<ul>
 			<li>
 				<a href="/contact">[contact]</a>
-				<a href="/things">[things]</a>
 			</li>
 		</ul>
 	</nav>

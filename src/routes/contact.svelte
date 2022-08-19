@@ -3,8 +3,7 @@
 	<h1>How to shoot the breeze</h1>
 </header>
 <main>
-	<div class="container">
-		<img src="contact.jpg" alt="Telephone" />
+	<div>
 		<p>
 			I haven't subscribed to facebook, twitter, instagram, snapchat, [fill in the blankshere ... ]
 			Whilst this means I am not always up to date with the latest thing, I am happy to sacrifice
@@ -34,14 +33,6 @@
 			'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
-	}
-
-	.container {
-		column-count: 2;
-	}
-
-	img {
-		width: 50%;
 	}
 
 	a {

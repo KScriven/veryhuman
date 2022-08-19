@@ -23,18 +23,17 @@ module.exports = __toCommonJS(stdin_exports);
 var import_index_2dc61825 = require("../../chunks/index-2dc61825.js");
 var contact_svelte_svelte_type_style_lang = "";
 const css = {
-  code: "h1.svelte-l74h00{font-size:3rem;padding:0rem 1.5rem;text-align:left;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',\n			'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}p.svelte-l74h00{padding:0rem 1.5rem;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',\n			'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.container.svelte-l74h00{column-count:2}img.svelte-l74h00{width:50%}a.svelte-l74h00{text-decoration:none;color:white}button.svelte-l74h00{background-color:black;color:white;padding:0.5rem;border-style:none;margin:0rem 1.5rem;font-size:1.5rem}button.svelte-l74h00:hover{background:linear-gradient(90deg, #fc466b 0%, #3f5efb 100%)}@media screen and (max-width: 600px){button.svelte-l74h00{background-color:black;color:white;padding:0.5rem;border-style:none;margin:0rem 1.5rem}button.svelte-l74h00:hover{background:linear-gradient(90deg, #fc466b 0%, #3f5efb 100%)}}",
+  code: "h1.svelte-1g5veiy{font-size:3rem;padding:0rem 1.5rem;text-align:left;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',\n			'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}p.svelte-1g5veiy{padding:0rem 1.5rem;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',\n			'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.container.svelte-1g5veiy{column-count:2}a.svelte-1g5veiy{text-decoration:none;color:white}button.svelte-1g5veiy{background-color:black;color:white;padding:0.5rem;border-style:none;margin:0rem 1.5rem;font-size:1.5rem}button.svelte-1g5veiy:hover{background:linear-gradient(90deg, #fc466b 0%, #3f5efb 100%)}@media screen and (max-width: 600px){button.svelte-1g5veiy{background-color:black;color:white;padding:0.5rem;border-style:none;margin:0rem 1.5rem}button.svelte-1g5veiy:hover{background:linear-gradient(90deg, #fc466b 0%, #3f5efb 100%)}}",
   map: null
 };
 const Contact = (0, import_index_2dc61825.c)(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
-  return `<header><a href="${"../"}" class="${"svelte-l74h00"}"><button class="${"svelte-l74h00"}">[Home]</button></a>
-	<h1 class="${"svelte-l74h00"}">How to shoot the breeze</h1></header>
-<main><div class="${"container svelte-l74h00"}"><img src="${"contact.jpg"}" alt="${"Telephone"}" class="${"svelte-l74h00"}">
-		<p class="${"svelte-l74h00"}">I haven&#39;t subscribed to facebook, twitter, instagram, snapchat, [fill in the blankshere ... ]
+  return `<header><a href="${"../"}" class="${"svelte-1g5veiy"}"><button class="${"svelte-1g5veiy"}">[Home]</button></a>
+	<h1 class="${"svelte-1g5veiy"}">How to shoot the breeze</h1></header>
+<main><div class="${"container svelte-1g5veiy"}"><p class="${"svelte-1g5veiy"}">I haven&#39;t subscribed to facebook, twitter, instagram, snapchat, [fill in the blankshere ... ]
 			Whilst this means I am not always up to date with the latest thing, I am happy to sacrifice
 			that for more focussed time spent online or elsewhere. You are welcome to email me at
-			kerryn.lloyd[at]gmail.com or find me on <a href="${"https://www.linkedin.com/in/kerrynscriven/"}" class="${"svelte-l74h00"}">[LinkedIn]</a>
+			kerryn.lloyd[at]gmail.com or find me on <a href="${"https://www.linkedin.com/in/kerrynscriven/"}" class="${"svelte-1g5veiy"}">[LinkedIn]</a>
 
 			Learning to code is hard work so you can keep me motivated by, when chatting, by being kind.
 		</p></div>

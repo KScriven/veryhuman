@@ -3,17 +3,17 @@
 </script>
 
 <header>
-	<h1 class="glitch">{title}</h1>
-	<nav class="nav-links">
-		<ul>
-			<li>
-				<a href="/contact">[contact]</a>
-			</li>
-		</ul>
-	</nav>
+	<!-- <nav class="nav-links"> -->
+	<ul>
+		<li>
+			<a href="/contact">[contact]</a>
+		</li>
+	</ul>
+	<!-- </nav> -->
 </header>
 
 <main>
+	<h1 class="glitch">{title}</h1>
 	<div class="caption">
 		<p class="bw-caption">black and white online</p>
 		<p class="full-caption">life in full colour</p>
@@ -45,69 +45,27 @@
 <style>
 	header {
 		display: flex;
-		padding: 0rem 1.5rem;
+		/* padding: 0rem 1.5rem; */
 		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
 			'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
 	}
-	main {
-		padding: 0rem 1.5rem;
-		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
-			'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
-	}
-	h1 {
-		font-size: 4rem;
-		text-align: left;
-		position: relative;
-	}
-
-	.caption {
-		display: flex;
-	}
-
-	.bw-caption {
-		display: flex;
-		background-color: white;
-		color: black;
-		width: max-content;
-		font-weight: 1000;
-		padding: 1rem;
-	}
-
-	.full-caption {
-		display: flex;
-		font-weight: 700;
-		padding: 1rem;
-		width: max-content;
-		background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
-	}
-
-	ul {
-		list-style-type: none;
-		text-align: left;
-	}
-
 	a {
 		text-decoration: none;
 		color: white;
 		font-size: 1.2rem;
+		display: block;
+		padding: 0.5rem 0.5rem;
 	}
 
 	a:hover {
 		background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
 	}
-
-	footer {
-		flex-shrink: 0;
-		font-size: 1.25rem;
-	}
 	.glitch {
 		color: white;
 		position: relative;
-		font-size: 7vw;
+		font-size: 6vw;
 		animation: glitch 3s 3s infinite;
 	}
 
@@ -119,24 +77,46 @@
 			transform: rotateX(0deg) skewX(0deg);
 		}
 	}
-
 	@media screen and (max-width: 600px) {
 		h1 {
+			display: inline;
+			padding-top: 2rem;
 			font-size: 3rem;
-			text-align: left;
 			position: relative;
+		}
+
+		ul {
+			list-style-type: none;
+			text-align: left;
+		}
+
+		.glitch {
+			color: white;
+			position: relative;
+			font-size: 6vw;
+			animation: glitch 3s 3s infinite;
+		}
+
+		a {
+			text-decoration: none;
+			color: white;
+			font-size: 1.2rem;
+		}
+
+		a:hover {
+			background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
+		}
+
+		@keyframes glitch {
+			1% {
+				transform: rotateX(10deg) skewX(90deg);
+			}
+			2% {
+				transform: rotateX(0deg) skewX(0deg);
+			}
 		}
 		p {
 			padding-top: 1rem;
-		}
-		.nav-links {
-			height: auto;
-			/* display: flex; */
-		}
-
-		.nav-links a:hover {
-			padding: 0;
-			background: transparent;
 		}
 
 		.bw-caption {

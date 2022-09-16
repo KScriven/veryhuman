@@ -30,6 +30,10 @@ const React = (0, import_index_2dc61825.c)(($$result, $$props, $$bindings, slots
   $$result.css.add(css);
   return `<header><a href="${"../"}" class="${"svelte-vrkug"}"><button class="${"svelte-vrkug"}">[Home]</button></a>
 	<h1 class="${"svelte-vrkug"}">Thing One</h1></header>
-<main><p class="${"svelte-vrkug"}">All things great and small</p>
+<main><div class="${"row"}"><div class="${"leftcolumn"}"><div class="${"card"}"><h2>TITLE HEADING</h2>
+				<h5>Title description, Dec 7, 2017</h5>
+				<div class="${"fakeimg"}" style="${"height:200px;"}">Image</div>
+				<p class="${"svelte-vrkug"}">Some text..</p></div></div>
+		<p class="${"svelte-vrkug"}">All things great and small</p></div>
 </main>`;
 });

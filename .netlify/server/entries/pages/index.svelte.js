@@ -30,9 +30,7 @@ let title = "Hello There";
 const Routes = (0, import_index_2dc61825.c)(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
   return `<header class="${"svelte-1bzmb4n"}"><h1 class="${"glitch svelte-1bzmb4n"}">${(0, import_index_2dc61825.e)(title)}</h1>
-	<nav class="${"nav-links svelte-1bzmb4n"}"><ul class="${"svelte-1bzmb4n"}"><li><a href="${"/blog"}" class="${"svelte-1bzmb4n"}">[blog]</a>
-				<a href="${"/contact"}" class="${"svelte-1bzmb4n"}">[contact]</a>
-				<a href="${"/things"}" class="${"svelte-1bzmb4n"}">[things]</a></li></ul></nav></header>
+	<nav class="${"nav-links svelte-1bzmb4n"}"><ul class="${"svelte-1bzmb4n"}"><li><a href="${"/contact"}" class="${"svelte-1bzmb4n"}">[contact]</a></li></ul></nav></header>
 
 <main class="${"svelte-1bzmb4n"}"><div class="${"caption svelte-1bzmb4n"}"><p class="${"bw-caption svelte-1bzmb4n"}">black and white online</p>
 		<p class="${"full-caption svelte-1bzmb4n"}">life in full colour</p></div>

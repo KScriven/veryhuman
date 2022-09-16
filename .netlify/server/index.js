@@ -1974,7 +1974,7 @@ function set_paths(paths) {
 }
 function set_prerendering(value) {
 }
-const template = ({ head, body, assets: assets2, nonce }) => '<!DOCTYPE html>\n<html lang="en">\n	<title>veryhuman space</title>\n	<head>\n		<meta charset="utf-8" />\n		<meta name="theme-color" content="#000000" />\n		<meta name="description" content="veryhuman" />\n		<link rel="icon" href="' + assets2 + '/favicon.png" />\n		<meta name="viewport" content="width=device-width, initial-scale=1" />\n		<link\n			rel="stylesheet"\n			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"\n		/>\n		' + head + "\n	</head>\n	<body>\n		<div>" + body + "</div>\n	</body>\n</html>\n\n<style>\n	html {\n		background-color: black;\n		color: white;\n		display: flex;\n		height: 100%;\n		width: 100%;\n	}\n\n	body {\n		display: flex;\n		flex-direction: column;\n	}\n</style>\n";
+const template = ({ head, body, assets: assets2, nonce }) => '<!DOCTYPE html>\n<html lang="en">\n	<title>veryhuman</title>\n	<head>\n		<meta charset="utf-8" />\n		<meta name="theme-color" content="#000000" />\n		<meta name="description" content="veryhuman" />\n		<link rel="icon" href="' + assets2 + '/favicon.png" />\n		<meta name="viewport" content="width=device-width, initial-scale=1" />\n		<link\n			rel="stylesheet"\n			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"\n		/>\n		' + head + "\n	</head>\n	<body>\n		<div>" + body + "</div>\n	</body>\n</html>\n\n<style>\n	html {\n		background-color: black;\n		color: white;\n		display: flex;\n		height: 100%;\n		width: 100%;\n	}\n\n	body {\n		display: flex;\n		flex-direction: column;\n	}\n</style>\n";
 let read = null;
 set_paths({ "base": "", "assets": "" });
 let default_protocol = "https";

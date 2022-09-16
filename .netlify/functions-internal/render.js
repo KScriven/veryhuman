@@ -5,7 +5,7 @@ exports.handler = init({
 	assets: new Set(["contact.jpg","favicon.png"]),
 	mimeTypes: {".jpg":"image/jpeg",".png":"image/png"},
 	_: {
-		entry: {"file":"start-1f6c8c8c.js","js":["start-1f6c8c8c.js","chunks/index-dd45c2ae.js"],"css":[]},
+		entry: {"file":"start-736396d6.js","js":["start-736396d6.js","chunks/index-dd45c2ae.js"],"css":[]},
 		nodes: [
 			() => Promise.resolve().then(() => require('../server/nodes/0.js')),
 			() => Promise.resolve().then(() => require('../server/nodes/1.js')),
@@ -13,8 +13,7 @@ exports.handler = init({
 			() => Promise.resolve().then(() => require('../server/nodes/3.js')),
 			() => Promise.resolve().then(() => require('../server/nodes/4.js')),
 			() => Promise.resolve().then(() => require('../server/nodes/5.js')),
-			() => Promise.resolve().then(() => require('../server/nodes/6.js')),
-			() => Promise.resolve().then(() => require('../server/nodes/7.js'))
+			() => Promise.resolve().then(() => require('../server/nodes/6.js'))
 		],
 		routes: [
 			{
@@ -70,17 +69,6 @@ exports.handler = init({
 				path: "/react",
 				shadow: null,
 				a: [0,6],
-				b: [1]
-			},
-			{
-				type: 'page',
-				id: "blog",
-				pattern: /^\/blog\/?$/,
-				names: [],
-				types: [],
-				path: "/blog",
-				shadow: null,
-				a: [0,7],
 				b: [1]
 			}
 		],

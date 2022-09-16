@@ -30,7 +30,7 @@ const Things = (0, import_index_2dc61825.c)(($$result, $$props, $$bindings, slot
   $$result.css.add(css);
   return `<header><a href="${"../"}" class="${"svelte-16x1z8"}"><button class="${"svelte-16x1z8"}">[Home]</button></a>
 	<h1 class="${"svelte-16x1z8"}">Things I am working on</h1></header>
-<main><p class="${"svelte-16x1z8"}">A list of things that currently facinate me and keep me at my computer</p>
+<main><p class="${"svelte-16x1z8"}">The findings of a dev online</p>
 	<ul class="${"svelte-16x1z8"}"><a href="${"/react"}" class="${"svelte-16x1z8"}"><li>[Thing One]</li></a>
 		<a href="${"/typescript"}" class="${"svelte-16x1z8"}"><li>[Thing Two]</li></a></ul>
 </main>`;

@@ -14,7 +14,7 @@
 			achieved
 		</p>
 		<p>You are welcome to email me at kerryn.lloyd[at]gmail.com or find me on LinkedIn</p>
-		<footer>Learning to code is hard work so you can keep me motivated by being kind.</footer>
+		<footer><b>Learning to code is hard work so you can keep me motivated by being kind</b></footer>
 	</div>
 </main>
 

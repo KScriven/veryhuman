@@ -23,29 +23,29 @@ module.exports = __toCommonJS(stdin_exports);
 var import_index_2dc61825 = require("../../chunks/index-2dc61825.js");
 var index_svelte_svelte_type_style_lang = "";
 const css = {
-  code: "header.svelte-1bzmb4n.svelte-1bzmb4n{display:flex;padding:0rem 1.5rem;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',\n			'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}main.svelte-1bzmb4n.svelte-1bzmb4n{padding:0rem 1.5rem;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',\n			'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}h1.svelte-1bzmb4n.svelte-1bzmb4n{font-size:4rem;text-align:left;position:relative}.caption.svelte-1bzmb4n.svelte-1bzmb4n{display:flex}.bw-caption.svelte-1bzmb4n.svelte-1bzmb4n{display:flex;background-color:white;color:black;width:max-content;font-weight:1000;padding:1rem}.full-caption.svelte-1bzmb4n.svelte-1bzmb4n{display:flex;font-weight:700;padding:1rem;width:max-content;background:linear-gradient(90deg, #fc466b 0%, #3f5efb 100%)}ul.svelte-1bzmb4n.svelte-1bzmb4n{list-style-type:none;text-align:left}a.svelte-1bzmb4n.svelte-1bzmb4n{text-decoration:none;color:white;font-size:1.2rem}a.svelte-1bzmb4n.svelte-1bzmb4n:hover{background:linear-gradient(90deg, #fc466b 0%, #3f5efb 100%)}footer.svelte-1bzmb4n.svelte-1bzmb4n{flex-shrink:0;font-size:1.25rem}.glitch.svelte-1bzmb4n.svelte-1bzmb4n{color:white;position:relative;font-size:7vw;animation:svelte-1bzmb4n-glitch 3s 3s infinite}@keyframes svelte-1bzmb4n-glitch{1%{transform:rotateX(10deg) skewX(90deg)}2%{transform:rotateX(0deg) skewX(0deg)}}@media screen and (max-width: 600px){h1.svelte-1bzmb4n.svelte-1bzmb4n{font-size:3rem;text-align:left;position:relative}p.svelte-1bzmb4n.svelte-1bzmb4n{padding-top:1rem}.nav-links.svelte-1bzmb4n.svelte-1bzmb4n{height:auto}.nav-links.svelte-1bzmb4n a.svelte-1bzmb4n:hover{padding:0;background:transparent}.bw-caption.svelte-1bzmb4n.svelte-1bzmb4n{display:flex;background-color:white;color:black;width:max-content;font-weight:1000;padding:0.2rem}.full-caption.svelte-1bzmb4n.svelte-1bzmb4n{display:flex;font-weight:700;padding:0.2rem;width:max-content;background:linear-gradient(90deg, #fc466b 0%, #3f5efb 100%)}}",
+  code: "header.svelte-xinkew{display:flex;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',\n			'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}h1.svelte-xinkew{margin-top:0.1rem;margin-bottom:0.1rem}a.svelte-xinkew{color:white;font-size:1.2rem;display:inline;padding:0.5rem;background:linear-gradient(90deg, #fc466b 0%, #3f5efb 100%)}.glitch.svelte-xinkew{color:white;position:relative;font-size:6vw;animation:svelte-xinkew-glitch 3s 3s infinite}@keyframes svelte-xinkew-glitch{1%{transform:rotateX(10deg) skewX(90deg)}2%{transform:rotateX(0deg) skewX(0deg)}}@media screen and (max-width: 450px){a.svelte-xinkew{text-decoration:none;color:white;font-size:1.2rem;padding:0.5rem}p.svelte-xinkew{padding-top:0.2rem}.bw-caption.svelte-xinkew{display:flex;background-color:white;color:black;width:max-content;font-weight:1000;padding:0.2rem}.full-caption.svelte-xinkew{display:flex;font-weight:700;padding:0.2rem;width:max-content;background:linear-gradient(90deg, #fc466b 0%, #3f5efb 100%)}}",
   map: null
 };
 let title = "Hello There";
 const Routes = (0, import_index_2dc61825.c)(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
-  return `<header class="${"svelte-1bzmb4n"}"><h1 class="${"glitch svelte-1bzmb4n"}">${(0, import_index_2dc61825.e)(title)}</h1>
-	<nav class="${"nav-links svelte-1bzmb4n"}"><ul class="${"svelte-1bzmb4n"}"><li><a href="${"/contact"}" class="${"svelte-1bzmb4n"}">[contact]</a></li></ul></nav></header>
+  return `<header class="${"svelte-xinkew"}"><a href="${"/contact"}" class="${"svelte-xinkew"}">[contact]</a>
+	<a href="${"https://github.com/KScriven"}" target="${"blank"}" class="${"svelte-xinkew"}">[gitHub] </a></header>
 
-<main class="${"svelte-1bzmb4n"}"><div class="${"caption svelte-1bzmb4n"}"><p class="${"bw-caption svelte-1bzmb4n"}">black and white online</p>
-		<p class="${"full-caption svelte-1bzmb4n"}">life in full colour</p></div>
-	<div><p class="${"content svelte-1bzmb4n"}">Hey there, I am Kerryn, a software engineer developing my work and life, in the UK. See some
-			of my work on <a href="${"https://github.com/KScriven"}" class="${"svelte-1bzmb4n"}">[gitHub] </a> or just read a little bit about
-			me here
+<main><h1 class="${"glitch svelte-xinkew"}">${(0, import_index_2dc61825.e)(title)}</h1>
+	<div class="${"caption"}"><p class="${"bw-caption svelte-xinkew"}">black and white online</p>
+		<p class="${"full-caption svelte-xinkew"}">life in full colour</p></div>
+	<div><p class="${"content svelte-xinkew"}">Hey there, I am Kerryn, a software engineer developing my work and life, in the UK. See some
+			of my work on GitHub or just read a little bit about me here
 		</p>
-		<p class="${"svelte-1bzmb4n"}">I love sunshine, <u>REALLY</u> early mornings (I am part of the 5am gym crew), an effortless kindness
-			of a stranger, yoga and a handful of amazing human beings. I make time when I can to read books,
-			cook food from scratch and get outdoors.
+		<p class="${"svelte-xinkew"}">I love sunshine, <u>REALLY</u> early mornings (I am part of the 5am gym crew), the effortless kindness
+			of strangers and yoga. I make time when I can to read books and cook food from scratch. I get outdoors
+			as much as I can and enjoy being in nature, having a cold water dip.
 		</p>
-		<p class="${"svelte-1bzmb4n"}">Things that make me sad are injustices, intrusion and hangovers</p>
-		<p class="${"svelte-1bzmb4n"}">I am <b>currently reading</b> Snow Crash by Neal Stephenson and
+		<p class="${"svelte-xinkew"}">Things that make me sad are injustices, intrusion and hangovers</p>
+		<p class="${"svelte-xinkew"}">I am <b>currently reading</b> Snow Crash by Neal Stephenson and
 			<b>my current food fixation is </b> anything with oodles of noodles
 		</p></div>
-	<div><footer class="${"svelte-1bzmb4n"}"><b>you are always one decision away from a totally different life</b></footer></div>
+	<div><footer><b>you are always one decision away from a totally different life</b></footer></div>
 </main>`;
 });

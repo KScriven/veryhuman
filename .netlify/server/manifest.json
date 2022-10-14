@@ -34,7 +34,7 @@
       "_index-2dc61825.js"
     ],
     "css": [
-      "assets/entries/pages/index.svelte-c37127bf.css"
+      "assets/entries/pages/index.svelte-3a246660.css"
     ]
   },
   "src/routes/typescript.svelte": {
@@ -56,7 +56,7 @@
       "_index-2dc61825.js"
     ],
     "css": [
-      "assets/entries/pages/typescript.svelte-77dc05aa.css"
+      "assets/entries/pages/contact.svelte-c5c823f4.css"
     ]
   },
   "src/routes/things.svelte": {

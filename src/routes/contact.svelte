@@ -8,10 +8,13 @@
 		<p>
 			I haven't subscribed to facebook, twitter, instagram, snapchat, [fill in the blanks here ... ]
 			Whilst this means I am not always up to date with the latest thing, I am happy to sacrifice
-			that for more focussed time spent online or elsewhere.
+			that for more focussed time spent online or elsewhere. I am learning the acoustic guitar
+			during the winter months to keep me going. I am lucky enough to get some downtime every few
+			weeks so I have just started having a look into the DALL*E 2 platform and seeing what can be
+			achieved
 		</p>
 		<p>You are welcome to email me at kerryn.lloyd[at]gmail.com or find me on LinkedIn</p>
-		<p>Learning to code is hard work so you can keep me motivated by being kind.</p>
+		<footer>Learning to code is hard work so you can keep me motivated by being kind.</footer>
 	</div>
 </main>
 
@@ -40,6 +43,10 @@
 		display: inline;
 		padding: 0.5rem;
 		background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
+	}
+
+	footer {
+		color: grey;
 	}
 	@media screen and (max-width: 450px) {
 		a {

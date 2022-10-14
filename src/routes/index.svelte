@@ -19,14 +19,18 @@
 			of my work on GitHub or just read a little bit about me here
 		</p>
 		<p>
-			I love sunshine, <u>REALLY</u> early mornings (I am part of the 5am gym crew), an effortless kindness
-			of a stranger, yoga and a handful of amazing human beings. I make time when I can to read books,
-			cook food from scratch and get outdoors.
+			I love sunshine, <u>REALLY</u> early mornings (I am part of the 5am gym crew), the effortless kindness
+			of strangers and yoga. I make time when I can to read books and cook food from scratch. I get outdoors
+			as much as I can and enjoy being in nature, having a cold water dip. This online space is just
+			a place where I can share my thoughts and findings on things. Its not technology focussed particularly
+			so if you are looking for strict opinions, this is not the place. My interests change all the time
+			so I find it easier not to just do one thing. This can mean my things are a bit of a mashup but
+			hey... thats me.
 		</p>
-		<p>Things that make me sad are injustices, intrusion and hangovers</p>
+		<p>Things that make me sad are injustices, unwanted intrusions and red wine hangovers</p>
 		<p>
-			I am <b>currently reading</b> Snow Crash by Neal Stephenson and
-			<b>my current food fixation is </b> anything with oodles of noodles
+			I am <b>currently reading</b> The Bridge by Iain Banks and my current food fixation is anything
+			vegan and particularly Japanese
 		</p>
 	</div>
 	<div>
@@ -69,6 +73,10 @@
 		2% {
 			transform: rotateX(0deg) skewX(0deg);
 		}
+	}
+
+	footer {
+		color: grey;
 	}
 	@media screen and (max-width: 450px) {
 		a {

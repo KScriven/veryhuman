@@ -3,13 +3,8 @@
 </script>
 
 <header>
-	<!-- <nav class="nav-links"> -->
-	<ul>
-		<li>
-			<a href="/contact">[contact]</a>
-		</li>
-	</ul>
-	<!-- </nav> -->
+	<a href="/contact">[contact]</a>
+	<a href="https://github.com/KScriven" target="blank"> [gitHub] </a>
 </header>
 
 <main>
@@ -21,8 +16,7 @@
 	<div>
 		<p class="content">
 			Hey there, I am Kerryn, a software engineer developing my work and life, in the UK. See some
-			of my work on <a href="https://github.com/KScriven"> [gitHub] </a> or just read a little bit about
-			me here
+			of my work on GitHub or just read a little bit about me here
 		</p>
 		<p>
 			I love sunshine, <u>REALLY</u> early mornings (I am part of the 5am gym crew), an effortless kindness
@@ -45,30 +39,29 @@
 <style>
 	header {
 		display: flex;
-		/* padding: 0rem 1.5rem; */
 		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
 			'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
 	}
+	h1 {
+		margin-top: 0.1rem;
+		margin-bottom: 0.1rem;
+	}
 	a {
-		text-decoration: none;
 		color: white;
 		font-size: 1.2rem;
-		display: block;
-		padding: 0.5rem 0.5rem;
-	}
-
-	a:hover {
+		display: inline;
+		padding: 0.5rem;
 		background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
 	}
+
 	.glitch {
 		color: white;
 		position: relative;
 		font-size: 6vw;
 		animation: glitch 3s 3s infinite;
 	}
-
 	@keyframes glitch {
 		1% {
 			transform: rotateX(10deg) skewX(90deg);
@@ -77,46 +70,15 @@
 			transform: rotateX(0deg) skewX(0deg);
 		}
 	}
-	@media screen and (max-width: 600px) {
-		h1 {
-			display: inline;
-			padding-top: 2rem;
-			font-size: 3rem;
-			position: relative;
-		}
-
-		ul {
-			list-style-type: none;
-			text-align: left;
-		}
-
-		.glitch {
-			color: white;
-			position: relative;
-			font-size: 6vw;
-			animation: glitch 3s 3s infinite;
-		}
-
+	@media screen and (max-width: 450px) {
 		a {
 			text-decoration: none;
 			color: white;
 			font-size: 1.2rem;
-		}
-
-		a:hover {
-			background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
-		}
-
-		@keyframes glitch {
-			1% {
-				transform: rotateX(10deg) skewX(90deg);
-			}
-			2% {
-				transform: rotateX(0deg) skewX(0deg);
-			}
+			padding: 0.5rem;
 		}
 		p {
-			padding-top: 1rem;
+			padding-top: 0.2rem;
 		}
 
 		.bw-caption {

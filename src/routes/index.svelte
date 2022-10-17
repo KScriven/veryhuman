@@ -79,6 +79,9 @@
 		color: grey;
 	}
 	@media screen and (max-width: 450px) {
+		h1 {
+			margin-bottom: 0.1rem;
+		}
 		a {
 			text-decoration: none;
 			color: white;

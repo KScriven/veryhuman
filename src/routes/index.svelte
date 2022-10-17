@@ -80,7 +80,7 @@
 	}
 	@media screen and (max-width: 450px) {
 		h1 {
-			margin-bottom: 0.1rem;
+			margin: 0;
 		}
 		a {
 			text-decoration: none;

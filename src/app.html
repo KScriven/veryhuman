@@ -22,12 +22,17 @@
 	html {
 		background-color: black;
 		color: white;
-		display: flex;
-		height: 100%;
-		width: 100%;
+		/* Just learning replace CSS */
+		display: grid;
+		place-items: center;
 	}
 
-	body {
+	/* Set core root defaults */
+	html:focus-within {
+		scroll-behavior: smooth;
+	}
+
+	/* body {
 		display: flex;
 		flex-direction: column;
 	}
@@ -159,5 +164,5 @@
 			width: max-content;
 			background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
 		}
-	}
+	} */
 </style>

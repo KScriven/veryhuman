@@ -1,8 +1,8 @@
-<header>
-	<a href="/">[home]</a>
-	<a href="https://www.linkedin.com/in/kerrynscriven/">[linkedIn]</a>
-</header>
-<main>
+<main class="padding-24">
+	<a class="bw-caption contact__content" href="/">home</a>
+	<a class="bw-caption contact__content" href="https://www.linkedin.com/in/kerrynscriven/"
+		>linkedIn</a
+	>
 	<h1>How to shoot the breeze</h1>
 	<div>
 		<p>
@@ -13,49 +13,82 @@
 			weeks so I try to keep motivated to keep learning.
 		</p>
 		<p>You are welcome to email me at kerryn.lloyd[at]gmail.com or find me on LinkedIn</p>
-		<footer><b>Learning to code is hard work so you can keep me motivated by being kind</b></footer>
+		<footer>Learning to code is hard work so you can keep me motivated by being kind</footer>
 	</div>
 </main>
 
 <style>
-	header {
-		display: flex;
-		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
-			'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
+	/* Box sizing rules */
+	*,
+	*::before,
+	*::after {
+		box-sizing: border-box;
 	}
+
+	/* Remove default margin */
+	h1,
+	p {
+		margin: 0;
+	}
+
+	/* Set core body defaults */
 	main {
-		padding: 0rem 1.5rem;
-		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
-			'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
+		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', sans-serif;
+		font-size: 1rem;
+		font-weight: 400;
+		max-width: 50rem;
+		text-rendering: optimizeSpeed;
+		line-height: 1.6;
+		background-color: rgb(33, 32, 32);
+		border-radius: 2rem;
+		margin: 1.5rem;
+	}
+
+	@keyframes glitch {
+		1% {
+			transform: rotateX(10deg) skewX(90deg);
+		}
+		2% {
+			transform: rotateX(0deg) skewX(0deg);
+		}
 	}
 	h1 {
-		margin-top: 0.1rem;
-		margin-bottom: 0.1rem;
+		font-size: 4rem;
+		animation: glitch 3s 3s infinite;
+	}
+
+	.bw-caption {
+		background-color: black;
+		color: white;
+		width: max-content;
+		font-weight: 700;
+		padding: 1rem;
 	}
 	a {
 		color: white;
-		font-size: 1.2rem;
-		display: inline;
-		padding: 0.5rem;
-		background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
 	}
 
-	footer {
-		color: grey;
+	/* A elements that don't have a class get default styles */
+	a:not([class]) {
+		text-decoration-skip-ink: auto;
 	}
-	@media screen and (max-width: 450px) {
-		a {
-			text-decoration: none;
-			color: white;
-			font-size: 1.2rem;
-			padding: 0.5rem;
+
+	.contact__content {
+		padding-top: 7rem;
+	}
+
+	/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+	@media (prefers-reduced-motion: reduce) {
+		*::before,
+		*::after {
+			animation-duration: 0.01ms !important;
+			animation-iteration-count: 1 !important;
+			transition-duration: 0.01ms !important;
+			scroll-behavior: auto !important;
 		}
-		p {
-			padding-top: 0.2rem;
-		}
+	}
+
+	.padding-24 {
+		padding: 1.5rem;
 	}
 </style>

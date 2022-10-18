@@ -97,6 +97,11 @@
 		}
 	}
 
+	h1 {
+		font-size: 2.5em;
+		padding-top: 2rem;
+	}
+
 	.padding-24 {
 		padding: 1.5rem;
 	}

@@ -1,7 +1,9 @@
 <main class="padding-24">
 	<a class="bw-caption contact__content" href="/">home</a>
-	<a class="bw-caption contact__content" href="https://www.linkedin.com/in/kerrynscriven/"
-		>linkedIn</a
+	<a
+		class="bw-caption contact__content"
+		href="https://www.linkedin.com/in/kerrynscriven/"
+		target="blank">linkedIn</a
 	>
 	<h1>How to shoot the breeze</h1>
 	<div>
@@ -12,7 +14,9 @@
 			during the winter months to keep me going. I am lucky enough to get some downtime every few
 			weeks so I try to keep motivated to keep learning.
 		</p>
-		<p>You are welcome to email me at kerryn.lloyd[at]gmail.com or find me on LinkedIn</p>
+		<p class="p__last">
+			You are welcome to email me at kerryn.lloyd[at]gmail.com or find me on LinkedIn
+		</p>
 		<footer>Learning to code is hard work so you can keep me motivated by being kind</footer>
 	</div>
 </main>
@@ -29,6 +33,7 @@
 	h1,
 	p {
 		margin: 0;
+		padding-bottom: 2rem;
 	}
 
 	/* Set core body defaults */
@@ -66,6 +71,10 @@
 	}
 	a {
 		color: white;
+	}
+
+	p {
+		padding-bottom: 2rem;
 	}
 
 	/* A elements that don't have a class get default styles */

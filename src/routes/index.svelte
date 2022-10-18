@@ -58,7 +58,7 @@
 		font-weight: 400;
 		max-width: 50rem;
 		text-rendering: optimizeSpeed;
-		line-height: 1.6;
+		line-height: 1.1;
 		background-color: rgb(33, 32, 32);
 		border-radius: 2rem;
 		margin: 1.5rem;
@@ -77,7 +77,7 @@
 		}
 	}
 	h1 {
-		font-size: 5rem;
+		font-size: 4rem;
 		/* text-align: center; */
 		animation: glitch 3s 3s infinite;
 	}
@@ -110,6 +110,10 @@
 		padding-top: 7rem;
 	}
 
+	p:not(:last-child) {
+		padding-bottom: 2rem;
+	}
+
 	/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 	@media (prefers-reduced-motion: reduce) {
 		*,
@@ -120,6 +124,10 @@
 			transition-duration: 0.01ms !important;
 			scroll-behavior: auto !important;
 		}
+	}
+
+	p.bw-caption {
+		padding-bottom: 1.2rem;
 	}
 
 	.padding-24 {

@@ -58,7 +58,7 @@
 		font-weight: 400;
 		max-width: 50rem;
 		text-rendering: optimizeSpeed;
-		line-height: 1.1;
+		line-height: 1.3;
 		background-color: rgb(33, 32, 32);
 		border-radius: 2rem;
 		margin: 1.5rem;

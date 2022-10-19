@@ -28,7 +28,7 @@
 		</p>
 
 		<p>I am currently reading The Bridge by Iain Banks</p>
-		<p>My current food fixation is anything vegan (particularly Japanese style).</p>
+		<p>My current food fixation is noodles and bao buns</p>
 
 		<div class="footer__caption">
 			<footer>you are always one decision away from a totally different life</footer>

@@ -9,15 +9,16 @@
 	<div>
 		<p>
 			I haven't subscribed to facebook, twitter, instagram, snapchat, [fill in the blanks here ... ]
-			Whilst this means I am not always up to date with the latest thing, I am happy to sacrifice
-			that for more focussed time spent online or elsewhere. I am learning the acoustic guitar
-			during the winter months to keep me going. I am lucky enough to get some downtime every few
-			weeks so I try to keep motivated to keep learning.
+			So you wont find me commenting or lurking online. I decided a long time ago that I am happy to
+			sacrifice not having an online presence, for more focussed time doing thing I enjoy. I am
+			currently learning the acoustic guitar during the winter months to keep me going. I am trying
+			to maintain a daily learning habit, where I am attempting to keep my skill relevant and my
+			brain interested!
 		</p>
 		<p class="p__last">
 			You are welcome to email me at kerryn.lloyd[at]gmail.com or find me on LinkedIn
 		</p>
-		<footer>Learning to code is hard work so you can keep me motivated by being kind</footer>
+		<footer>Always be kind</footer>
 	</div>
 </main>
 

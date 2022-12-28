@@ -16,22 +16,27 @@
 	</div>
 	<div class="blog__content padding-24">
 		<p>
-			Hey there, I am Kerryn, a software engineer developing my work and life, in the UK. See some
-			of my work on GitHub or just read a little bit about me here. I love sunshine, <u>REALLY</u>
-			early mornings (I am part of the 5am gym crew), the effortless kindness of strangers and yoga.
-			I make time when I can to read books and cook food from scratch. I get outdoors as much as I can
-			and enjoy being in nature. This online space is just a place where I can share my thoughts and
-			findings on random things. Its not technology focussed particularly, if you are looking for strict
-			opinions, I am afraid its not here. My interests change all the time so I find it easier not to
-			just do one thing, I am a bit of this and that. This can mean my things are a bit of a mash-up
-			but hey... thats me. Things that make me sad are injustices, unwanted intrusions and red wine hangovers
+			Hey there, I am Kerryn, a software engineer developing my skills in the UK. Some of my work I
+			put on GitHub but your welcome to read a little bit about me here. I thrive in the sunshine,
+			love <u>REALLY</u>
+			early mornings and the random effortless kindness of strangers. I try to make time to read physical
+			books and cook meals from scratch. When I can, I make sure I get outdoors. My space online is only
+			born from me attempting to implement the things I am currently learning. This blog is written with
+			Svelte, as an alternative to React. If you are looking for strict opinions, I am afraid this is
+			not the place, this is for my tinkering. My interests change all the time and I love to learn and
+			can jump between technology spaces. So hey ... thats me. Short and sweet.
 		</p>
-
+		<p>
+			Things that make me sad are injustices, unwanted intrusions to my personal space and red wine
+			hangovers
+		</p>
 		<p>I am currently reading The Bridge by Iain Banks</p>
-		<p>My current food fixation is noodles and bao buns</p>
+		<p>My current food fixation is noodles</p>
 
 		<div class="footer__caption">
-			<footer>you are always one decision away from a totally different life</footer>
+			<footer>
+				I like to remember that you are always only one decision away from a totally different life
+			</footer>
 		</div>
 	</div>
 </main>

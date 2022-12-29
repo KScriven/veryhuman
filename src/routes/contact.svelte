@@ -12,7 +12,7 @@
 			so you wont find me commenting or lurking much online. I am happy to sacrifice not having an
 			active online presence, for more focussed time doing things that I enjoy. I am currently
 			learning the acoustic guitar during the winter months to keep me going. And I am trying to
-			maintain a daily habit of learning, where I am attempt to keep my skills relevant and my brain
+			maintain a daily habit of learning, where I attempt to keep my skills relevant and my brain
 			occupied!
 		</p>
 		<p class="p__last">

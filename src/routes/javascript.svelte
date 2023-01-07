@@ -1,18 +1,18 @@
 <header>
 	<a href="../"><button>[Home]</button></a>
-	<h1>Thing One</h1>
+	<h1>Javascript Notes</h1>
 </header>
 <main>
 	<div class="row">
 		<div class="leftcolumn">
 			<div class="card">
-				<h2>TITLE HEADING</h2>
-				<h5>Title description, Dec 7, 2017</h5>
+				<h2>Javascript considerations</h2>
 				<div class="fakeimg" style="height:200px;">Image</div>
-				<p>Some text..</p>
+				<p>delegation vs inheritance</p>
+				<p>this + scope</p>
+				<p>prototypes vs classes</p>
 			</div>
 		</div>
-		<p>All things great and small</p>
 	</div>
 </main>
 

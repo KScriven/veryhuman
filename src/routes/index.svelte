@@ -30,7 +30,7 @@
 			Things that make me sad are injustices, unwanted intrusions to my personal space and red wine
 			hangovers
 		</p>
-		<p>I am currently reading The Bridge by Iain Banks</p>
+		<p>I am currently reading "Around Africa on my bicycle" by Riaan Manser</p>
 		<p>My current food fixation is noodles</p>
 
 		<div class="footer__caption">
@@ -130,11 +130,9 @@
 			scroll-behavior: auto !important;
 		}
 	}
-
 	p.bw-caption {
 		padding-bottom: 1.2rem;
 	}
-
 	.padding-24 {
 		padding: 1.5rem;
 	}

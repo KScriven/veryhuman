@@ -28,7 +28,7 @@ const manifest = {
   assets: /* @__PURE__ */ new Set(["contact.jpg", "favicon.png"]),
   mimeTypes: { ".jpg": "image/jpeg", ".png": "image/png" },
   _: {
-    entry: { "file": "start-bded7349.js", "js": ["start-bded7349.js", "chunks/index-dd45c2ae.js"], "css": [] },
+    entry: { "file": "start-a2dcc72d.js", "js": ["start-a2dcc72d.js", "chunks/index-dd45c2ae.js"], "css": [] },
     nodes: [
       () => Promise.resolve().then(() => __toESM(require("./nodes/0.js"))),
       () => Promise.resolve().then(() => __toESM(require("./nodes/1.js"))),
@@ -52,13 +52,24 @@ const manifest = {
       },
       {
         type: "page",
+        id: "javascript",
+        pattern: /^\/javascript\/?$/,
+        names: [],
+        types: [],
+        path: "/javascript",
+        shadow: null,
+        a: [0, 3],
+        b: [1]
+      },
+      {
+        type: "page",
         id: "typescript",
         pattern: /^\/typescript\/?$/,
         names: [],
         types: [],
         path: "/typescript",
         shadow: null,
-        a: [0, 3],
+        a: [0, 4],
         b: [1]
       },
       {
@@ -69,7 +80,7 @@ const manifest = {
         types: [],
         path: "/contact",
         shadow: null,
-        a: [0, 4],
+        a: [0, 5],
         b: [1]
       },
       {
@@ -79,17 +90,6 @@ const manifest = {
         names: [],
         types: [],
         path: "/things",
-        shadow: null,
-        a: [0, 5],
-        b: [1]
-      },
-      {
-        type: "page",
-        id: "react",
-        pattern: /^\/react\/?$/,
-        names: [],
-        types: [],
-        path: "/react",
         shadow: null,
         a: [0, 6],
         b: [1]

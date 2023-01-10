@@ -30,8 +30,10 @@
 			Things that make me sad are injustices, unwanted intrusions to my personal space and red wine
 			hangovers
 		</p>
-		<p>I am currently reading "Around Africa on my bicycle" by Riaan Manser</p>
-		<p>My current food fixation is noodles</p>
+		<p>
+			I am currently reading "Around Africa on my bicycle" by Riaan Manser and my current food
+			fixation is noodles
+		</p>
 
 		<div class="footer__caption">
 			<footer>

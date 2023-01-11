@@ -70,6 +70,15 @@
 		font-weight: 700;
 		padding: 1rem;
 	}
+
+	@keyframes glitch {
+		1% {
+			transform: rotateX(10deg) skewX(90deg);
+		}
+		2% {
+			transform: rotateX(0deg) skewX(0deg);
+		}
+	}
 	a {
 		color: white;
 	}

@@ -58,6 +58,15 @@
 		margin: 0;
 	}
 
+	@keyframes glitch {
+		1% {
+			transform: rotateX(10deg) skewX(90deg);
+		}
+		2% {
+			transform: rotateX(0deg) skewX(0deg);
+		}
+	}
+
 	/* Set core body defaults */
 	main {
 		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', sans-serif;

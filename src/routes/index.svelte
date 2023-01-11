@@ -32,7 +32,8 @@
 		</p>
 		<p>
 			I am currently reading "Around Africa on my bicycle" by Riaan Manser and my current food
-			fixation is noodles
+			fixation is noodles. I am also currently working through the FrontEnd Masters Advanced
+			training.
 		</p>
 
 		<div class="footer__caption">

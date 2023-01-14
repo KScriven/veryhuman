@@ -24,16 +24,17 @@
 			born from me attempting to implement the things I am currently learning. This blog is written with
 			Svelte, as an alternative to React. If you are looking for strict opinions, I am afraid this is
 			not the place, this is for my tinkering. My interests change all the time and I love to learn and
-			can jump between technology spaces. So hey ... thats me. Short and sweet.
+			can jump between technology spaces.
 		</p>
 		<p>
-			Things that make me sad are injustices, unwanted intrusions to my personal space and red wine
-			hangovers
+			So hey ... thats me, I am rather private and prefer not to have any personal information
+			online, but there are things that make me sad like injustices, uninvited intrusions to my
+			personal space and red wine hangovers
 		</p>
 		<p>
-			I am currently reading "Around Africa on my bicycle" by Riaan Manser and my current food
-			fixation is noodles. I am also currently working through the FrontEnd Masters Advanced
-			training.
+			I am enjoy some quite time reading books, currently on the bedside table is "Around Africa on
+			my bicycle" by Riaan Manser and my current food fixation is noodles. I like to keep learning
+			so I am working my working through the FrontEnd Masters Advanced training.
 		</p>
 
 		<div class="footer__caption">

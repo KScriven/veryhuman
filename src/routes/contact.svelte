@@ -34,7 +34,7 @@
 	h1,
 	p {
 		margin: 0;
-		padding-bottom: 2rem;
+		/* padding-bottom: 2rem; */
 	}
 
 	/* Set core body defaults */

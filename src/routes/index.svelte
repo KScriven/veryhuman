@@ -16,30 +16,25 @@
 	</div>
 	<div class="blog__content padding-24">
 		<p>
-			Hey there, I am Kerryn, a software engineer developing my skills in the UK. Some of my work I
-			put on GitHub but your welcome to read a little bit about me here. I thrive in the sunshine,
-			love <u>REALLY</u>
-			early mornings and the random effortless kindness of strangers. I try to make time to read physical
-			books and cook meals from scratch. When I can, I make sure I get outdoors. My space online is only
-			born from me attempting to implement the things I am currently learning. This blog is written with
-			Svelte, as an alternative to React. If you are looking for strict opinions, I am afraid this is
-			not the place, this is for my tinkering. My interests change all the time and I love to learn and
-			can jump between technology spaces.
+			Hey there, I am Kerryn, a software engineer developing my coding skills in the UK. Some of my
+			work I put on GitHub but your welcome to read a little bit about me here. I thrive in the
+			sunshine, love <u>REALLY</u> early mornings and the random acts of kindness
 		</p>
 		<p>
-			So hey ... thats me, I am rather private and prefer not to have any personal information
-			online, but there are things that make me sad like injustices, uninvited intrusions to my
-			personal space and red wine hangovers
+			My space online is only born from me attempting to implement the things I am currently
+			learning. This blog is written with Svelte, as an alternative to React, just for my learnings.
+			If you are looking for strict opinions, I am afraid this is not the place
 		</p>
 		<p>
-			I am enjoy some quite time reading books, currently on the bedside table is "Around Africa on
-			my bicycle" by Riaan Manser and my current food fixation is noodles. I like to keep learning
-			so I am working my working through the FrontEnd Masters Advanced training.
+			I am enjoy quite time reading books and currently on my bedside table is "Around Africa on my
+			bicycle" by Riaan Manser. My current food fixation is noodles. The industry I work in is ever
+			evolving so I like to keep learning through doing and am currently investing some time into
+			the FrontEnd Masters Advanced training syllabus
 		</p>
 
 		<div class="footer__caption">
 			<footer>
-				I like to remember that you are always only one decision away from a totally different life
+				Remember that you are always only one decision away from a totally different life
 			</footer>
 		</div>
 	</div>

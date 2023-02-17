@@ -18,7 +18,7 @@
 		<p>
 			Hey there, I am Kerryn, a software engineer developing my coding skills in the UK. Some of my
 			work I put on GitHub but your welcome to read a little bit about me here. I thrive in the
-			sunshine, love <u>REALLY</u> early mornings and the random acts of kindness
+			sunshine, love <u>REALLY</u> early mornings and random acts of kindness
 		</p>
 		<p>
 			My space online is only born from me attempting to implement the things I am currently

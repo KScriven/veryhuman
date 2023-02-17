@@ -1,3 +1,16 @@
+<head>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-1Q8TDQBGSW"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'G-1Q8TDQBGSW');
+	</script>
+</head>
 <main class="padding-24">
 	<a class="bw-caption contact__content" href="/">home</a>
 	<a

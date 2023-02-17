@@ -18,6 +18,17 @@
 		<meta name="twitter:domain" content="veryhuman.co.uk" />
 		<meta name="twitter:title" content="veryhuman" />
 		%svelte.head%
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-1Q8TDQBGSW"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'G-1Q8TDQBGSW');
+		</script>
 	</head>
 	<body>
 		<div>%svelte.body%</div>

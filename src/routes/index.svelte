@@ -103,8 +103,13 @@
 	}
 	h1 {
 		font-size: 4rem;
-		/* text-align: center; */
 		animation: glitch 3s 3s infinite;
+	}
+
+	@media only screen and (max-width: 600px) {
+		h1 {
+			font-size: 3.5rem;
+		}
 	}
 
 	.bw-caption {

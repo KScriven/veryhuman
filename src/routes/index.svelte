@@ -1,5 +1,5 @@
 <script>
-	let title = 'Hello There';
+	let title = 'Hey There !';
 </script>
 
 <head>
@@ -30,25 +30,26 @@
 	</div>
 	<div class="blog__content padding-24">
 		<p>
-			Hey there, I am Kerryn, a software engineer developing my coding skills in the UK. Some of my
-			work I put on GitHub but your welcome to read a little bit about me here. I thrive in the
-			sunshine, love <u>REALLY</u> early mornings and random acts of kindness
+			I am Kerryn, a software engineer developing my coding skills in the UK. Some of my work I put
+			on GitHub but your welcome to read a little bit about me here. I thrive in the sunshine,
+			really love early mornings and random acts of kindness. I am a very private person and dont
+			have much of an online presence
 		</p>
 		<p>
-			My space online is only born from me attempting to implement the things I am currently
-			learning. This blog is written with Svelte, as an alternative to React, just for my learnings.
-			If you are looking for strict opinions, I am afraid this is not the place
+			This space is only born from me attempting to implement the things I am currently learning.
+			This blog is written with Svelte, as an alternative to React. If you are looking for strict
+			opinions, I am afraid this is not the place. The industry I work in is ever evolving so I like
+			to keep learning through doing
 		</p>
 		<p>
-			I am enjoy quite time reading books and currently on my bedside table is "Around Africa on my
-			bicycle" by Riaan Manser. My current food fixation is noodles. The industry I work in is ever
-			evolving so I like to keep learning through doing and am currently investing some time into
-			the FrontEnd Masters Advanced training syllabus
+			I enjoy quite time reading and currently on my bedside table is "Lanny" by Max Porter. My
+			current food fixation is noodles and I love anything Japanese inspired! Its on my bucket list
+			of places I would love to explore
 		</p>
 
 		<div class="footer__caption">
 			<footer>
-				Remember that you are always only one decision away from a totally different life
+				<b>Remember that you are always only one decision away from a totally different life</b>
 			</footer>
 		</div>
 	</div>

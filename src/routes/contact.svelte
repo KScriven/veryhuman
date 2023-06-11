@@ -18,18 +18,17 @@
 		href="https://www.linkedin.com/in/kerrynscriven/"
 		target="blank">linkedIn</a
 	>
-	<h1>How to shoot the breeze</h1>
+	<h1>How to get in touch</h1>
 	<div>
 		<p>
 			I haven't subscribed to facebook, twitter, instagram, snapchat, [fill in the blanks here ... ]
-			so you wont find me commenting or lurking much online. I am happy to sacrifice not having an
-			active online presence, for more focussed time doing things that I enjoy. I am currently
-			learning the acoustic guitar during the winter months to keep me going
+			so you wont find me online. I am happy to sacrifice not having an active online presence, for
+			more focussed time doing things that I enjoy.
 		</p>
-		<p class="p__last">
-			You are welcome to email me at kerryn.lloyd[at]gmail.com or find me on LinkedIn
+		<p>
+			However should you feel the need to please do email me at kerryn.lloyd[at]gmail.com or find me
+			on <a href="https://www.linkedin.com">LinkedIn</a>
 		</p>
-		<footer>Always remember to be kind</footer>
 	</div>
 </main>
 

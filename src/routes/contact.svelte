@@ -62,7 +62,6 @@
 
 	h1 {
 		font-size: 3.5rem;
-		animation: glitch 3s 3s infinite;
 		padding-bottom: 0.5rem;
 	}
 
@@ -74,14 +73,6 @@
 		padding: 1rem;
 	}
 
-	@keyframes glitch {
-		1% {
-			transform: rotateX(10deg) skewX(90deg);
-		}
-		2% {
-			transform: rotateX(0deg) skewX(0deg);
-		}
-	}
 	a {
 		color: white;
 	}

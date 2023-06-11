@@ -1,5 +1,5 @@
 <script>
-	let title = 'Hey There !';
+	let title = 'Hey There!';
 </script>
 
 <head>

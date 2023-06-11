@@ -18,7 +18,7 @@
 		href="https://www.linkedin.com/in/kerrynscriven/"
 		target="blank">linkedIn</a
 	>
-	<h1>How to get in touch</h1>
+	<h1>Get in touch</h1>
 	<div>
 		<p>
 			I haven't subscribed to facebook, twitter, instagram, snapchat, [fill in the blanks here ... ]
@@ -41,7 +41,11 @@
 	}
 
 	/* Remove default margin */
-	h1,
+	@media only screen and (max-width: 600px) {
+		h1 {
+			font-size: 2.5rem;
+		}
+	}
 	p {
 		margin: 0;
 		/* padding-bottom: 2rem; */

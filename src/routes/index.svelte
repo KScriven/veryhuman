@@ -63,13 +63,6 @@
 		box-sizing: border-box;
 	}
 
-	/* Remove default margin */
-
-	h1 {
-		font-size: 3.5rem;
-
-		padding-bottom: 0.5rem;
-	}
 	p {
 		margin: 0;
 	}

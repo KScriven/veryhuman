@@ -63,6 +63,7 @@
 	h1 {
 		font-size: 3.5rem;
 		animation: glitch 3s 3s infinite;
+		padding-bottom: 0.5rem;
 	}
 
 	.bw-caption {

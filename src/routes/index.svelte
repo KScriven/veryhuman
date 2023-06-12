@@ -102,12 +102,16 @@
 		}
 	}
 	h1 {
+		margin: 0px;
+		margin: 0px;
 		font-size: 4rem;
 		animation: glitch 3s 3s infinite;
 	}
 
 	@media only screen and (max-width: 600px) {
 		h1 {
+			margin: 0px;
+			padding-bottom: 0.5rem;
 			font-size: 3.5rem;
 		}
 	}

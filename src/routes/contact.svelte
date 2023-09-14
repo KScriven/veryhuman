@@ -111,6 +111,6 @@
 	}
 
 	.padding-24 {
-		padding: 1.5rem;
+		padding-bottom: 1rem;
 	}
 </style>

@@ -159,6 +159,11 @@
 			scroll-behavior: auto !important;
 		}
 	}
+
+	p:first-child {
+		padding-top: 1.5rem;
+	}
+
 	p.bw-caption {
 		padding-bottom: 1.2rem;
 	}

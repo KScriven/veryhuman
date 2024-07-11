@@ -87,6 +87,7 @@
 		background-color: rgb(33, 32, 32);
 		border-radius: 2rem;
 		margin: 1.5rem;
+		padding: 1rem;
 	}
 
 	.header {

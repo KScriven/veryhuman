@@ -67,15 +67,6 @@
 		margin: 0;
 	}
 
-	@keyframes glitch {
-		1% {
-			transform: rotateX(10deg) skewX(90deg);
-		}
-		2% {
-			transform: rotateX(0deg) skewX(0deg);
-		}
-	}
-
 	/* Set core body defaults */
 	main {
 		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', sans-serif;
@@ -94,19 +85,10 @@
 		text-align: center;
 	}
 
-	@keyframes glitch {
-		1% {
-			transform: rotateX(10deg) skewX(90deg);
-		}
-		2% {
-			transform: rotateX(0deg) skewX(0deg);
-		}
-	}
 	h1 {
 		margin: 0px;
 		margin: 0px;
 		font-size: 4rem;
-		animation: glitch 3s 3s infinite;
 	}
 
 	@media only screen and (max-width: 600px) {

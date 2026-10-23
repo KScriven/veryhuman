@@ -9,7 +9,8 @@ installation, or build step is required.
 - [First-fix & structural](./structural.html): battening, framing, roof joisting, and sub-floors.
 - [Second-fix & finish](./finishing.html): architraves, skirting, door hanging, and kitchen fitting.
 - [Fine woodwork & bespoke](./bespoke.html): furniture, cabinetry, and specialist joinery.
-- [The process journal](./journal.html): a short coming-soon notice for future project stories.
+- [The learning journal](./journal.html): a home for short reflections, lessons, and project stories.
+- [Post template](./posts/post-template.html): copy this file to write a reflection in plain HTML.
 
 All pages share [styles.css](./styles.css). The visual identity uses warm neutrals, deep green,
 and original CSS timber illustrations. Google Fonts supplies optional typefaces; system sans-serif
@@ -53,11 +54,48 @@ For the existing Netlify site:
 Generated `.netlify/` files are not source files and should not be committed. No catch-all SPA
 redirect is needed: each page is a standalone HTML document.
 
-## Adding content later
+## Writing a journal post
 
-Category pages contain concise service descriptions rather than empty project sections. The journal
-has a single coming-soon notice until real project stories are ready. Add case studies with the
-brief, method, and finished result, then link to them from the relevant category pages.
+1. Copy [posts/post-template.html](./posts/post-template.html) to a new file in the same folder,
+   for example `posts/my-first-practice-session.html`. Keep the original as your reusable template.
+2. Update the page `<title>`, description, breadcrumb, topic, heading, introduction, and date.
+   The `<time datetime="2026-10-23">23 October 2026</time>` element needs both the machine-readable
+   date (`YYYY-MM-DD`) and the visible date changed.
+3. Replace the prompts with your own words. Keep, rename, or remove the suggested headings.
+   A short reflection is enough: what you tried, what you noticed, what you learned, and one next
+   step. You don't need a completed project or a photograph.
+4. Remove the visible "Writing template only" note from your copy. When ready to publish, remove
+   `<meta name="robots" content="noindex">` from the finished copy, not the original template.
+5. Open the new file in your browser and check it. All paths assume posts live directly inside
+   `posts/`; use `../static/your-photo.jpg` for an optional photo, with meaningful alt text.
+6. Add a card inside the `journal-entries` section in [journal.html](./journal.html), beneath its
+   section heading. Use the snippet below, updating the link, date, topic, title, and summary.
+   Put the newest card first. Remove the `journal-empty` paragraph when adding your first post.
+7. Commit and push the post, updated journal index, and any photos to deploy as usual.
+
+```html
+<article class="journal-entry">
+  <p class="post-meta"><time datetime="2026-10-23">23 October 2026</time> / Reflection</p>
+  <h3><a href="posts/my-first-practice-session.html">My first practice session</a></h3>
+  <p>A short summary in your own words about what this session taught you.</p>
+  <a class="text-link" href="posts/my-first-practice-session.html">Read the reflection</a>
+</article>
+```
+
+Write paragraphs as `<p>Your words here.</p>`. Use `<h2>A heading</h2>` for sections,
+`<ul><li>A point</li></ul>` for lists, and `<a href="https://example.com">Link text</a>` for links.
+In text, write `&amp;` for `&` and `&lt;` for `<`. The template includes an optional photo block
+inside an HTML comment; remove its surrounding `<!--` and `-->` markers to use it.
+
+There is no browser editor, database, or automatic post listing. Saving HTML edits changes your
+local copy; pushing them publishes them. Keep unfinished drafts outside the deployed repository:
+`noindex` is a search-engine hint, not privacy protection. The journal starts empty rather than
+presenting template text as your personal experience.
+
+## Adding other content
+
+Category pages contain concise service descriptions. You can also write longer case studies with
+the brief, method, and finished result, then link to them from the relevant category pages.
 
 Replace CSS illustrations with your own photographs as work becomes available. Add your business
 details, service area, availability, and contact information in the home page's `project-brief`

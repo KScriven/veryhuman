@@ -141,6 +141,28 @@ p { margin-bottom: 1.2rem; }
 .case-study .case-copy > p { color: var(--muted); font-size: .9rem; margin-bottom: 1.7rem; }
 .case-caption { font-size: .7rem; color: var(--muted); }
 .journal-end { margin-bottom: 72px; }
+.journal-entries { padding-bottom: 72px; }
+.journal-empty { max-width: 42rem; padding: 1.5rem; border-left: 2px solid var(--orange); background: #e9ecdf; color: var(--muted); }
+.journal-entry { padding-block: 2rem; border-top: 1px solid var(--line); }
+.journal-entry h3 { margin-bottom: .8rem; }
+.journal-entry > p { max-width: 42rem; color: var(--muted); }
+.post-meta { color: var(--muted); font-size: .8rem; }
+.journal-post { max-width: 720px; margin-inline: auto; }
+.journal-post .page-intro { padding-bottom: 16px; }
+.journal-post .page-intro > :last-child { margin-bottom: 0; }
+.journal-post h1 { overflow-wrap: anywhere; }
+.post-heading { display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem; margin-bottom: 1.6rem; }
+.post-heading h1 { flex: 1 1 260px; min-width: 0; margin-bottom: 0; }
+.post-thumbnail { display: block; width: 90px; max-width: 100%; height: auto; border-radius: 3px; }
+.post-body { font-size: 1.05rem; line-height: 1.85; overflow-wrap: anywhere; }
+.post-body > .sample-note:first-child { margin-top: 0; }
+.post-body h2 { font-size: clamp(1.7rem, 4vw, 2.3rem); margin-top: 2.5rem; margin-bottom: 1rem; }
+.post-body h3 { font-size: 1.4rem; margin-top: 2rem; }
+.post-body figure { margin: 2rem 0; }
+.post-body img { display: block; max-width: 100%; height: auto; border-radius: 3px; }
+.post-body figcaption { color: var(--muted); font-size: .8rem; margin-top: .7rem; }
+.post-body blockquote { margin: 2rem 0; padding-left: 1.5rem; border-left: 2px solid var(--orange); }
+.post-footer { padding-block: 2rem 4rem; margin-top: 2.5rem; border-top: 1px solid var(--line); }
 
 @media (min-width: 1500px) {
   .hero { padding-top: 80px; padding-bottom: 72px; }

@@ -1,34 +1,67 @@
-# veryHuman personal website
+# VeryHuman carpentry
 
-A small website built for personal use to track thoughts, findings and things for me.
+A responsive carpentry portfolio built with HTML and CSS only. No JavaScript, frameworks, package
+installation, or build step is required.
 
-## Creating this project
+## Pages
 
-Whilst building this website (slowly) I am trying to learn new software development skills, be it frameworks or some simple CSS trickery.
+- [Home](./index.html): introduction, craft categories, process, and future contact section.
+- [First-fix & structural](./structural.html): battening, framing, roof joisting, and sub-floors.
+- [Second-fix & finish](./finishing.html): architraves, skirting, door hanging, and kitchen fitting.
+- [Fine woodwork & bespoke](./bespoke.html): furniture, cabinetry, and specialist joinery.
+- [The process journal](./journal.html): a short coming-soon notice for future project stories.
 
-## Developing
+All pages share [styles.css](./styles.css). The visual identity uses warm neutrals, deep green,
+and original CSS timber illustrations. Google Fonts supplies optional typefaces; system sans-serif
+fallbacks keep the site usable offline. Navigation works without scripts.
 
-I start my local development server running the following commands (thanks to @SvelteKit for all the coolness).
-When I develop locally I ensure that I run a version of node that is older than v12.
+Headers and footers use [logo-site.png](./static/logo-site.png), a tightly cropped display copy of
+your original [logo.png](./static/logo.png). The original is preserved unchanged.
 
-```bash
-npm run dev
+## Preview
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+Open [index.html](./index.html) directly in a browser, or serve the repository with any static server.
+For example, if Python 3 is available:
 
+```sh
+python3 -m http.server 8000
 ```
 
-A local version of the website is generated and run from a [localhost](http://localhost:3000/) instance
+Then visit http://localhost:8000. There are no application dependencies or compilation steps.
 
-## Building and deploying
+## Deploying to Netlify
 
-To create a production version of my app I run the following command:
+[netlify.toml](./netlify.toml) configures Netlify to publish the repository root as a static site.
+The build command only prints a message; it intentionally replaces the previous Svelte build command.
+No Node packages, framework adapter, or serverless functions are required.
 
-```bash
-npm run build
-```
+For the existing Netlify site:
 
-You can preview the production build with `npm run preview`. Once this is committed to my branch it automatically deploys to the hosting platform [Netlify](https://www.netlify.com).
+1. Confirm it is connected to this GitHub repository and that its production branch is `main`.
+2. In Netlify's build settings, clear any old package directory or Svelte framework settings. The
+   base directory should be the repository root, and the publish directory should be `.` (not `build`).
+   The committed configuration supplies the build command and publish directory.
+3. Commit and push the complete static-site migration, including the root HTML pages,
+   [styles.css](./styles.css), [static/](./static/), and [netlify.toml](./netlify.toml), along with the
+   removal of the old Svelte configuration and package files. Pushing only the deployment configuration
+   would leave the old application files in the remote repository.
+4. Netlify will deploy the push automatically if continuous deployment is enabled. For the first
+   deployment after the migration, use Netlify's **Clear cache and deploy site** option if stale
+   framework detection or build output causes a failure.
+5. Check the home page, all service pages, the journal, and the header/footer logos on the live site.
 
-All things being well its deployed to [veryHuman](https://veryhuman.co.uk)
+Generated `.netlify/` files are not source files and should not be committed. No catch-all SPA
+redirect is needed: each page is a standalone HTML document.
+
+## Adding content later
+
+Category pages contain concise service descriptions rather than empty project sections. The journal
+has a single coming-soon notice until real project stories are ready. Add case studies with the
+brief, method, and finished result, then link to them from the relevant category pages.
+
+Replace CSS illustrations with your own photographs as work becomes available. Add your business
+details, service area, availability, and contact information in the home page's `project-brief`
+section. It is a placeholder section, not a working enquiry form.
+
+Original assets remain in [static/](./static/), but are not used as carpentry project photography.
+The repository [license](./LICENSE) is unchanged.

@@ -101,6 +101,10 @@ p { margin-bottom: 1.2rem; }
 .journal-preview { border: 1px solid var(--green); padding: 2rem; display: grid; grid-template-columns: .7fr 1.5fr; align-items: center; gap: 3rem; text-decoration: none; border-radius: 3px; }
 .journal-preview:hover, .journal-preview:focus-visible { background: #e9ecdf; }
 .journal-preview h2 { margin-bottom: .7rem; font-size: 1.8rem; }
+.journal-preview .journal-mantra { margin-bottom: 1.5rem; font-size: clamp(2rem, 4vw, 3.2rem); }
+.journal-mantra > span { display: flex; align-items: baseline; gap: 1rem; padding-block: .6rem; border-bottom: 1px solid var(--line); }
+.journal-mantra small { flex: 0 0 1.5rem; font-size: .7rem; font-weight: 500; letter-spacing: .08em; color: var(--muted); }
+.journal-mantra em { font-family: Georgia, serif; font-weight: 400; color: var(--green); }
 .journal-preview p { font-size: .88rem; color: var(--muted); margin: 0; }
 .journal-preview .eyebrow { margin: 0; }
 .journal-prompt { display: inline-flex; align-items: center; gap: 1rem; margin-top: 1.25rem; padding: .75rem 1rem; background: var(--green); color: var(--white); border-radius: 3px; font-size: 1rem; font-weight: 600; }
@@ -116,7 +120,7 @@ p { margin-bottom: 1.2rem; }
 .footer-inner p { font-size: 1rem; color: var(--muted); margin: 0; }
 .footer-inner a:not(.brand) { font-size: 1rem; font-weight: 600; }
 .page-intro { padding-block: 64px 48px; max-width: 920px; }
-.breadcrumb { font-size: .75rem; color: var(--muted); margin-bottom: 2.5rem; }
+.breadcrumb { font-size: 1rem; color: var(--muted); margin-bottom: 2.5rem; }
 .breadcrumb a { text-decoration: none; }
 .page-intro h1 { font-size: clamp(3.2rem, 6.5vw, 6rem); }
 .page-intro .lede { max-width: 42rem; font-size: 1.1rem; color: var(--muted); }
@@ -155,13 +159,18 @@ p { margin-bottom: 1.2rem; }
 .journal-post { max-width: 720px; margin-inline: auto; }
 .journal-post .page-intro { padding-bottom: 16px; }
 .journal-post .page-intro > :last-child { margin-bottom: 0; }
-.journal-post h1 { overflow-wrap: anywhere; }
-.post-heading { display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem; margin-bottom: 1.6rem; }
-.post-heading h1 { flex: 1 1 260px; min-width: 0; margin-bottom: 0; }
-.post-thumbnail { display: block; width: 90px; max-width: 100%; height: auto; border-radius: 3px; }
+.journal-post .page-intro h2 { overflow-wrap: anywhere; }
+.post-heading { display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--line); }
+.post-heading-copy { flex: 1 1 260px; min-width: 0; }
+.post-heading-copy .eyebrow { font-size: .65rem; margin-bottom: 1rem; }
+.post-heading h2 { font-size: clamp(2rem, 4vw, 3rem); line-height: 1.15; letter-spacing: -.04em; margin-bottom: 1rem; }
+.post-heading-copy .post-meta { margin-bottom: .75rem; }
+.post-heading-copy .lede { font-size: 1rem; margin-bottom: 0; }
+.post-thumbnail { display: block; width: 90px; max-width: 100%; height: auto; flex-shrink: 0; padding: 6px; background: var(--white); border: 1px solid var(--line); border-radius: 6px; box-shadow: 0 6px 18px #262e2510; }
 .post-thumbnail-large { width: 240px; }
 .post-thumbnail-medium { width: 200px; }
 .post-body { font-size: 1.05rem; line-height: 1.85; overflow-wrap: anywhere; }
+.post-body .sample-note { font-size: 1.1rem; }
 .post-body > .sample-note:first-child { margin-top: 0; }
 .post-body h2 { font-size: clamp(1.7rem, 4vw, 2.3rem); margin-top: 2.5rem; margin-bottom: 1rem; }
 .post-body h3 { font-size: 1.4rem; margin-top: 2rem; }
@@ -216,7 +225,7 @@ p { margin-bottom: 1.2rem; }
   .page-intro { padding-top: 32px; }
   .page-intro h1 { font-size: clamp(3rem, 11vw, 5rem); }
   .post-heading { flex-direction: column; text-align: left; }
-  .post-heading h1 { flex: none; width: 100%; }
+  .post-heading-copy { flex: none; width: 100%; }
   .category-overview .craft-art { height: 320px; }
   .detail-panel { padding: 1.5rem; margin-bottom: 48px; }
   .detail-grid { grid-template-columns: 1fr; gap: 1.5rem; }

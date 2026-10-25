@@ -16,7 +16,7 @@ All pages share [styles.css](./styles.css). The visual identity uses warm neutra
 and original CSS timber illustrations. Google Fonts supplies optional typefaces; system sans-serif
 fallbacks keep the site usable offline. Navigation works without scripts.
 
-Headers and footers use [logo-site.png](./static/logo-site.png), a tightly cropped display copy of
+Headers use [logo-site.png](./static/logo-site.png), a tightly cropped display copy of
 your original [logo.png](./static/logo.png). The original is preserved unchanged.
 
 ## Preview
@@ -49,7 +49,7 @@ For the existing Netlify site:
 4. Netlify will deploy the push automatically if continuous deployment is enabled. For the first
    deployment after the migration, use Netlify's **Clear cache and deploy site** option if stale
    framework detection or build output causes a failure.
-5. Check the home page, all service pages, the journal, and the header/footer logos on the live site.
+5. Check the home page, all service pages, the journal, and the header logos on the live site.
 
 Generated `.netlify/` files are not source files and should not be committed. No catch-all SPA
 redirect is needed: each page is a standalone HTML document.

@@ -115,7 +115,6 @@ p { margin-bottom: 1.2rem; }
 .footer-inner { display: flex; justify-content: space-between; align-items: center; gap: 2rem; padding-block: 30px; }
 .footer-inner p { font-size: 1rem; color: var(--muted); margin: 0; }
 .footer-inner a:not(.brand) { font-size: 1rem; font-weight: 600; }
-.footer-inner .brand-logo { width: 104px; }
 .page-intro { padding-block: 64px 48px; max-width: 920px; }
 .breadcrumb { font-size: .75rem; color: var(--muted); margin-bottom: 2.5rem; }
 .breadcrumb a { text-decoration: none; }

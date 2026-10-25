@@ -5,7 +5,7 @@ installation, or build step is required.
 
 ## Pages
 
-- [Home](./index.html): introduction, craft categories, process, and future contact section.
+- [Home](./index.html): a simple hero introduction and illustration, followed by the learning journal.
 - [First-fix & structural](./structural.html): battening, framing, roof joisting, and sub-floors.
 - [Second-fix & finish](./finishing.html): architraves, skirting, door hanging, and kitchen fitting.
 - [Fine woodwork & bespoke](./bespoke.html): furniture, cabinetry, and specialist joinery.
@@ -97,9 +97,9 @@ presenting template text as your personal experience.
 Category pages contain concise service descriptions. You can also write longer case studies with
 the brief, method, and finished result, then link to them from the relevant category pages.
 
-Replace CSS illustrations with your own photographs as work becomes available. Add your business
-details, service area, availability, and contact information in the home page's `project-brief`
-section. It is a placeholder section, not a working enquiry form.
+The homepage is intentionally focused on the hero and journal. Service category pages remain
+available at their existing URLs, but are not promoted on the landing page. There is no project
+enquiry section or working enquiry form.
 
 Original assets remain in [static/](./static/), but are not used as carpentry project photography.
 The repository [license](./LICENSE) is unchanged.

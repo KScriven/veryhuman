@@ -160,6 +160,7 @@ p { margin-bottom: 1.2rem; }
 .post-heading h1 { flex: 1 1 260px; min-width: 0; margin-bottom: 0; }
 .post-thumbnail { display: block; width: 90px; max-width: 100%; height: auto; border-radius: 3px; }
 .post-thumbnail-large { width: 240px; }
+.post-thumbnail-medium { width: 200px; }
 .post-body { font-size: 1.05rem; line-height: 1.85; overflow-wrap: anywhere; }
 .post-body > .sample-note:first-child { margin-top: 0; }
 .post-body h2 { font-size: clamp(1.7rem, 4vw, 2.3rem); margin-top: 2.5rem; margin-bottom: 1rem; }
@@ -214,7 +215,7 @@ p { margin-bottom: 1.2rem; }
   .footer-inner p { width: 100%; order: 3; }
   .page-intro { padding-top: 32px; }
   .page-intro h1 { font-size: clamp(3rem, 11vw, 5rem); }
-  .post-heading { flex-direction: column; text-align: center; }
+  .post-heading { flex-direction: column; text-align: left; }
   .post-heading h1 { flex: none; width: 100%; }
   .category-overview .craft-art { height: 320px; }
   .detail-panel { padding: 1.5rem; margin-bottom: 48px; }

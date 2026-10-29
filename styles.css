@@ -187,4 +187,25 @@ a:focus-visible {
   }
 }
 
+/* Journal article hero images */
+.journal-post .post-heading .post-thumbnail,
+.journal-post .post-heading .post-thumbnail-large {
+  display: block;
+  width: 220px;
+  max-width: 100%;
+  height: 220px;
+  object-fit: cover;
+  object-position: center;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 3px;
+}
 
+/* Smaller screens */
+@media (max-width: 760px) {
+  .journal-post .post-heading .post-thumbnail,
+  .journal-post .post-heading .post-thumbnail-large {
+    width: 150px;
+    height: 180px;
+  }
+}

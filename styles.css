@@ -97,3 +97,57 @@ body:has(.hero-wood) main { flex: 1 1 auto; min-height: 0; display: flex; }
   .hero { min-height: 310px; }
 }
 
+a {
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--orange);
+  text-decoration-thickness: 2px;
+}
+
+a:focus-visible {
+  color: var(--orange);
+}
+
+.nav .journal-nav-link:hover,
+.nav .journal-nav-link:focus-visible {
+  color: var(--orange);
+}
+
+/* Journal images — more compact on desktop */
+/* Journal article thumbnails — desktop only */
+@media (min-width: 761px) {
+  .post-heading .post-thumbnail {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 3px;
+  }
+}
+
+/* Journal article photographs — desktop only */
+@media (min-width: 761px) {
+  .journal-post .post-body figure {
+    width: 100%;
+    max-width: 480px;
+    margin: 32px auto;
+  }
+
+  .journal-post .post-body figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
+  }
+
+  .journal-post .post-body figcaption {
+    margin-top: 10px;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: var(--muted);
+  }
+}

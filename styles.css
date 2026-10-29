@@ -150,3 +150,16 @@ a:focus-visible {
   line-height: 1.5;
   color: var(--muted);
 }
+
+@media (max-width: 760px) {
+  .journal-post .post-heading .post-thumbnail {
+    display: block;
+    width: 150px;
+    max-width: 100%;
+    height: 210px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 3px;
+    flex-shrink: 0;
+  }
+}
